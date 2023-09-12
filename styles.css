@@ -1,0 +1,392 @@
+/* Reset some default styles */
+body, h1, p {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAE6E5;
+    
+}
+
+/* Define the header styles */
+header {
+    position: fixed;
+    background-color: #8FCB9B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1dvb 1dvb;
+    border: 1% solid black;
+    width: 99%;
+    
+}
+
+.logo a {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.7%;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1.56%;
+}
+
+nav a {
+    font-family: 'Inter', sans-serif;
+    color: #12130F;
+    text-decoration: none;
+    font-size: 175%;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.cart a {
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    background-image: url('./Resources/cactusHeader.jpg');
+    background-size:cover;
+    height: 50dvb; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    background-position: center;
+}
+
+#home h1 {
+    margin-top: 11.1dvb;
+    font-size: 500%;
+    color:white;
+    font-weight: bold;
+    background-color: transparent;
+}
+.image-gallery {
+    margin-left: 10dvb;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-self: center;
+}
+.box{
+    display: flex;
+    margin: 5dvb;
+    background-position: center;
+    background-size: cover;
+}
+.left-container {
+    flex-direction: column;
+    display: flex;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    height: 34.4dvb;
+    width: 75dvb;
+    background-image: url('./Resources/cactus1.jpg');
+}
+.box2{
+    height: 86.6dvb;
+    width: 64dvb;
+    background-image: url('./Resources/cactus2.jpg');
+}
+.box3{
+    height: 44.2dvb;
+    width: 62.5dvb;
+    background-image: url('./Resources/cactus3.jpg');
+    align-self:flex-end;
+}
+.box4{
+    height: 22.2dvb;
+    width: 41.66dvb;
+    background-image: url('./Resources/cactus4.jpg');
+    align-self: center;
+}
+.box5{
+    height: 32.2dvb;
+    width: 96dvb;
+    background-image: url('./Resources/cactus5.jpg');
+}
+#gallery h1{
+ margin: 0.5dvb;
+ font-size: 400%;
+ font-weight: bold;
+}
+
+#about h1{
+    font-size: 400%;
+    font-weight: bold;
+}
+
+#catalog h1{
+    font-size: 400%;
+    font-weight: bold;
+}
+h2{
+    font-size: 200%;
+    font-weight: bold;
+}
+#about p{
+    font-size: 3dvb;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-box{
+    flex-direction: column;
+    display: flex;
+}
+.box-text {
+    background-color: transparent;
+    color:  #12130F;;
+    padding: 1.38dvb;
+    margin: 0.5dvb;
+}
+
+.box-text.right {
+    order: 1;
+  }
+
+  .product-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5.5dvb;
+    text-decoration: none;
+}
+
+.product-box {
+    width: 50dvb;
+    background-color: #8F8073;
+    padding: 2.7dvb;
+    border-radius: 1.11dvb;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.77dvb;
+    text-decoration: none;
+}
+
+.product-box img {
+    max-width: 100%;
+    border-radius: 0.5dvb;
+}
+
+.product-box h3 {
+    margin-top: 2.22dvb;
+    font-size: 2.33dvb;
+    color: #12130F;
+    text-decoration: none;
+}
+
+.product-box p {
+    font-size: 100%;
+    color: #12130F;
+    margin-top: 1.11dvb;
+    background-color: transparent;
+    text-decoration: none;
+}
+.product-details {
+    display: flex;
+    align-items: flex-start;/* Account for the fixed header */
+    padding-top: 15dvb;
+}
+
+.product-image {
+    margin-left: 3dvb;
+    justify-self: center;
+    align-self: center;
+    width: 100dvb;
+    flex: 1;
+}
+
+.product-image img {
+    justify-self: center;
+    width: 100dvb;
+    border-radius: 0.5dvb;
+}
+
+.product-description {
+    flex: 2;
+    padding: 2.7dvb;
+    background-color: transparent;
+    border-radius: 1.1dvb;
+    margin-left: 2.7dvb;
+}
+
+.product-info {
+    margin-top: 20dvb;
+    flex: 1;
+    padding: 2.7dvb;
+    background-color: transparent;
+    border-radius: 1.11dvb;
+    margin-left: 2.7dvb;
+}
+
+.product-info p {
+    font-size: 120%;
+    color: #12130F;
+}
+
+.product-info button {
+    display: flex;
+    width: 100%;
+    margin-top: 1dvb;
+    padding: 2dvb;
+    font-size: 100%;
+    color: #12130F;
+    background-color: #8FCB9B;
+    border: none;
+    border-radius: 0.5dvb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-info button:hover {
+    background-color: #6B9F78;
+}
+
+.button-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.product-table {
+    align-self: center;
+    width: 60%;
+}
+
+.checkout {
+    margin-left: 3dvb;
+    margin-top: 15dvb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.selectable-map,
+.card-form,
+.total {
+    margin-top: 30dvb;
+    margin-top: 2.7dvb;
+    box-sizing: border-box;
+}
+
+.selectable-map iframe {
+    width: 100%;
+    height: 41dvb;
+}
+
+.product-table table {
+    width: 90%;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.selectable-map,
+.card-form,
+.total {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.total h2 {
+    font-size: 24px;
+}
+
+.total span {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.buy-button {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 100%;
+    color: #12130F;
+    background-color: #8FCB9B;
+    border: none;
+    border-radius: 0.5dvb;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+    margin-bottom: 2dvb;
+}
+
+.buy-button:hover {
+    background-color: #6B9F78;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.card-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #12130F;
+}
+
+.card-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #12130F;
+}
+
+.card-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #12130F;
+    background-color: #8FCB9B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-form button:hover {
+    background-color: #6B9F78;
+}
